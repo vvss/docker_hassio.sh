@@ -9,16 +9,15 @@
 #sudo reboot
 
 #重启之后，依次运行以下命令
-#cd /tmp
-#sudo nano docker_hassio.sh
-#复制本文件内容，到ssh命令行中，保存，关闭，然后依次运行下面的命令
-#sudo chmod u+x docker_hassio.sh
-#sudo ./docker_hassio.sh 1>&2
-
-
-
-
-
+# cd /tmp
+# 进入缓存目录
+# sudo nano docker_hassio.sh
+# 创建一个临时 shell 文件
+# 附件文件中的内容，粘贴到 putty，Ctrl+O（保存），Ctrl+X（关闭）。
+# sudo chmod u+x docker_hassio.sh
+# 登录复制 sh 文件读写权限
+# sudo ./docker_hassio.sh 1>&2
+# 执行脚本。
 
 echo
 
